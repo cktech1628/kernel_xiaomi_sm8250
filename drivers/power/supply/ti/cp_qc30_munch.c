@@ -625,9 +625,9 @@ static int cp_reset_vbus_volt(void)
 			usleep_range(10000, 10010);
 			pr_err("qc3p5_reset_vbus_retry=%d,vbus=%d\n", qc3p5_reset_vbus_retry, pm_state.bq2597x.vbus_volt);
 			if (qc3p5_reset_vbus_retry > 300) {
-				pr_err("Failed to reset qc3.5 adapter volt to 6.55v or less\n");
-				break;
-			}
+    				pr_err("Failed to reset qc3.5 adapter volt to 6.55v or less\n");
+   				 break;
+				}
 		}
 	} else {
 		psy = cp_get_sw_psy();

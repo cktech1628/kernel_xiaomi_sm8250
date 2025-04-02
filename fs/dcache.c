@@ -18,6 +18,8 @@
 #include <linux/string.h>
 #include <linux/mm.h>
 #include <linux/fs.h>
+#include <linux/task_struct.h>
+#include <linux/susfs_def.h>
 #include <linux/fscrypt.h>
 #include <linux/fsnotify.h>
 #include <linux/slab.h>

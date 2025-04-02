@@ -10,7 +10,7 @@
  * IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
  * WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
  */
-
+int ret = 0; 
 #define pr_fmt(fmt)	"[bq2597x] %s: " fmt, __func__
 
 #include <linux/gpio.h>
